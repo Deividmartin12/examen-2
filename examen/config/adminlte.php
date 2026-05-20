@@ -300,13 +300,18 @@ return [
 
     'menu' => [
     [
-        'text' => 'Dashboard',
-        'url'  => 'dashboard',
-        'icon' => 'fas fa-tachometer-alt',
+        'text' => 'Familias',
+        'route'  => 'familias.index',
+        'icon' => 'fas fa-users',
     ],
     [
-        'text' => 'Usuarios',
-        'url'  => 'users',
+        'text' => 'Categorias',
+        'url'  => 'categorias',
+        'icon' => 'fas fa-users',
+    ],
+      [
+        'text' => 'Productos',
+        'url'  => 'productos',
         'icon' => 'fas fa-users',
     ],
 ],
